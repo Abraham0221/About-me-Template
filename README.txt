@@ -37,14 +37,4 @@ CHANGE THE PAGE COLORS
   "EDIT THESE COLORS". Change any color code (like #FFC93C).
 
 
-SOMETHING BROKE?
 
-  If you see a red "Oops!" bar or a blank page, you probably
-  deleted a quote mark " , a comma , or a bracket ] }.
-  Press Ctrl+Z (Cmd+Z on Mac) to undo, then try again.
-
-
-SAFETY TIP
-
-  This page might be seen by other people. Don't put your
-  full last name, home address, phone number, or passwords on it.

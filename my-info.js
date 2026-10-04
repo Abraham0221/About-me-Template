@@ -78,12 +78,8 @@ const myInfo = {
   wantToLearn:  ["Guitar", "Coding", "A new language", "Skateboarding"],
 
   /* ---------- 10. WHEN I GROW UP ---------- */
-  dreamJob:    "scientist",         // EDIT: your dream job (example: "teacher", "pro gamer", "vet")
+  dreamJob:    "Dream job",         // EDIT: your dream job (example: "teacher", "pro gamer", "vet")
   dreamReason: "Tell us why! What would you do every day? Who would you help?",
 
 };
 
-/* =====================================================================
-   DONE! That's it! Save this file and refresh your page.
-   Want to change the page colors? Open style.css (look at the top).
-   ===================================================================== */
