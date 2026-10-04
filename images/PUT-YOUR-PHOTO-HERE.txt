@@ -1,0 +1,2 @@
+Put your photo in this folder (for example me.png),
+then type "images/me.png" next to photo: in my-info.js

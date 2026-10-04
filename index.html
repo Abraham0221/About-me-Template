@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All About Me</title>
+
+  <!-- Fonts from Google (you don't need to change these) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <!-- Our styles (colors, sizes, layout) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--
+  ======================================================================
+    HEY! You do NOT need to edit this file.
+    To put YOUR info on the page, open  my-info.js  and edit it there.
+    To change the page colors, open  style.css  and look at the top.
+
+    This file is the "skeleton" of the page. Each  id="..."  is a spot
+    that script.js fills in with the info from my-info.js.
+  ======================================================================
+  -->
+
+  <!-- ===== MENU BAR ===== -->
+  <header class="nav">
+    <nav class="container nav-inner">
+      <a href="#top" class="logo">
+        <span class="logo-badge" data-icon="star"></span>
+        <span id="nav-name">Your Name</span>
+      </a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#favorites">Favorites</a>
+        <a href="#facts">Fun Facts</a>
+        <a href="#dreams">Dreams</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== BIG HEADER (HERO) ===== -->
+  <section id="top" class="hero dots">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <span class="pill"><span id="grade">6th</span> Grade · <span id="school">Your School</span></span>
+        <h1>Hi! I'm <span class="name-tag" id="hero-name">Name</span></h1>
+        <p class="hero-sub">
+          Welcome to my page! My friends call me <strong id="nickname">Nickname</strong>
+          and I love <strong id="i-love">something</strong>.
+        </p>
+        <div class="btn-row">
+          <a href="#about" class="btn btn-dark">Read about me</a>
+          <a href="#favorites" class="btn btn-light">See my favorites</a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <div class="photo-circle" id="photo-circle">
+          <!-- script.js puts your photo (or a camera placeholder) in here -->
+        </div>
+        <span class="sticker">That's me!</span>
+        <span class="dot-deco"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ME ===== -->
+  <section id="about" class="container section">
+    <div class="section-title">
+      <span class="title-badge teal tilt-left" data-icon="person"></span>
+      <h2>About Me</h2>
+    </div>
+
+    <div class="about-row">
+      <div class="card about-card" id="about-text">
+        <!-- your About Me paragraphs go here -->
+      </div>
+
+      <div class="card words-card">
+        <h3>3 words that describe me</h3>
+        <div class="chips" id="three-words"></div>
+        <ul class="quick-facts">
+          <li>Birthday month: <span id="birthday">Month</span></li>
+          <li>Hometown: <span id="hometown">City</span></li>
+          <li>Languages I speak: <span id="languages">English</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAVORITES ===== -->
+  <section id="favorites" class="container section">
+    <div class="section-title">
+      <span class="title-badge pink tilt-right" data-icon="heart"></span>
+      <h2>My Favorite Things</h2>
+    </div>
+    <div class="fav-grid" id="fav-grid">
+      <!-- one card for each favorite in my-info.js -->
+    </div>
+  </section>
+
+  <!-- ===== FUN FACTS ===== -->
+  <section id="facts" class="container section">
+    <div class="section-title">
+      <span class="title-badge yellow tilt-left" data-icon="bulb"></span>
+      <h2>Fun Facts About Me</h2>
+    </div>
+    <div class="facts-grid" id="facts-grid">
+      <!-- one card for each fun fact in my-info.js -->
+    </div>
+  </section>
+
+  <!-- ===== GOOD AT / WANT TO LEARN ===== -->
+  <section class="container section skills-grid">
+    <div class="card skills-card green-shadow">
+      <h3>Things I'm good at</h3>
+      <div class="chips" id="good-at"></div>
+    </div>
+    <div class="card skills-card blue-shadow">
+      <h3>Things I want to learn</h3>
+      <div class="chips" id="want-to-learn"></div>
+    </div>
+  </section>
+
+  <!-- ===== WHEN I GROW UP ===== -->
+  <section id="dreams" class="container section dreams-wrap">
+    <div class="dreams dots">
+      <div class="dreams-text">
+        <span class="pill pill-yellow">When I grow up</span>
+        <h2>I want to be a <span id="dream-job">dream job</span>!</h2>
+        <p id="dream-reason">Tell us why!</p>
+      </div>
+      <div class="rocket" data-icon="rocket"></div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="made-by">Made with <span class="heart" data-icon="heartFilled"></span> by <span id="footer-name">Your Name</span></span>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <!-- Load YOUR info first, then the script that builds the page -->
+  <script src="my-info.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
